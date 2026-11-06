@@ -1,0 +1,61 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# LocalSOC databases
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+
+# Logs and forensic evidence
+logs/
+evidence/
+investigations/
+uploads/
+reports/
+*.log
+*.csv
+*.jsonl
+*.ndjson
+*.pcap
+*.pcapng
+
+# Ollama and AI models
+models/
+*.gguf
+*.bin
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Generated reports and HTML evidence
+*.html

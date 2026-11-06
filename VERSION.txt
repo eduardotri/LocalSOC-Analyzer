@@ -1,0 +1,3 @@
+LocalSOC Analyzer V8.2.3
+Foco: apresentação consolidada dos achados correlacionados, com evidências expansíveis.
+Base: V8.2.2
